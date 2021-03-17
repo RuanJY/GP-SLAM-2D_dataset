@@ -13,3 +13,14 @@ The map overlaid with map ground truth and trajectory of the mobile robot produc
 
 The map overlaid with map ground truth and trajectory of the mobile robot produced by our algorithm is show in Fig. 4.
 <div align=center><img width="800" src="https://github.com/RuanJY/DataSetZJU/blob/master/map6.2.jpg" alt="Fig. 4"/></div>
+
+Please cite our paper if you use this data-set:
+"@INPROCEEDINGS{8996403,
+  author={J. {Ruan} and Z. {Fang} and B. {Li} and Y. {Wang} and W. {Zhao}},
+  booktitle={2019 Chinese Automation Congress (CAC)}, 
+  title={Evaluation of GP-SLAM in real-world environments}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={3076-3081},
+  doi={10.1109/CAC48633.2019.8996403}}"
