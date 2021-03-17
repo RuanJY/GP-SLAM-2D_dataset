@@ -1,7 +1,7 @@
 # DataSetZJU
 This is the data set containing 2D laser scan and odometry collected by ruanjy in Yuquan campus, Zhejiang University.
 Our experiments were performed with a differential drive mobile robot named “Apollo”, which can be seen in Fig. 1.The mobile robot is equipped with a Hokuyo UTM-30LX-EW laser scanner with a scanning frequency of 40 Hz, two wheel encoders that allow to measure the rotation of the wheels and a GY-85 IMU module. 
-<div align=center><img width="150" src="https://github.com/RuanJY/DataSetZJU/blob/master/%E5%B0%8F%E8%BD%A6%E9%B8%9F%E7%9E%B0.jpg"/></div>
+<div align=center><Fig.1 width="500" src="https://github.com/RuanJY/DataSetZJU/blob/master/%E5%B0%8F%E8%BD%A6%E9%B8%9F%E7%9E%B0.jpg"/></div>
 
 The first experiment was conducted on the second floor of Yongqian Students’ Center in Yuquan Campus, Zhejiang University, Hangzhou, China. The mobile robot moved clockwise through a corridor outside a lecture hall. The center lines ofthe corridor consists of two straight lines, one minor arc and one semicircle whose radius is about 8.5 m. The environment is shown in Fig. 2
 
