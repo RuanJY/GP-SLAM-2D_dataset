@@ -1,19 +1,46 @@
-# 2D_Lidar_DataSet_ZJU
-This is the data set containing 2D laser scan and odometry collected by ruanjy in Yuquan campus, Zhejiang University.
+# 2D Lidar DataSet ZJU
+
+A mobile-robot-based SLAM data-set containing 2D laser scan from Hokuyo LiDAR, IMU, and odometry from wheel encoders.
+
+Collected by Jianyuan RUAN in Yuquan campus, Zhejiang University.
+
+## Main features:
+
+- Precise and high frequency (40 Hz) 2D range measurement from Hokuyo LiDAR.
+
+- The start point and end point coincide so that the accuracy assessment can be conducted easily. We use of rails to force the vehicle to return to the same location after completing a loop.
 
 ## Description:
-Our experiments were performed with a differential drive mobile robot named “Apollo”, which can be seen in Fig. 1.The mobile robot is equipped with a Hokuyo UTM-30LX-EW laser scanner with a scanning frequency of 40 Hz, two wheel encoders that allow to measure the rotation of the wheels and a GY-85 IMU module. 
+
+**Platform**: 
+
+“Apollo” differential drive mobile robot.
+
+**Sensor**: 
+
+- A [Hokuyo UTM-30LX-EW laser scanner](https://www.hokuyo-aut.jp/search/single.php?serial=170), 40 Hz, Maximum Range: 0.1 to 60m, Field of view 270°, Multi-echo, 1440 points per scan.
+- Two wheel encoders
+- A GY-85 IMU module. 
+
 <div align=center><img width="500" src="https://github.com/RuanJY/DataSetZJU/blob/master/%E5%B0%8F%E8%BD%A6%E9%B8%9F%E7%9E%B0.jpg" alt="Fig. 1"/></div>
 
-The first experiment was conducted on the second floor of Yongqian Students’ Center in Yuquan Campus, Zhejiang University, Hangzhou, China. The mobile robot moved clockwise through a corridor outside a lecture hall. The center lines ofthe corridor consists of two straight lines, one minor arc and one semicircle whose radius is about 8.5 m. The environment is shown in Fig. 2
+###  Yongqian Students’ Center
 
-The second experiment was performed in another environment which is larger, and contains more unstructured objects. The environment, located in the fourth floor of the Chow Yei Ching Science & Technology Building in Yuquan Campus, Zhejiang University, Hangzhou, China, is 41 m × 34 m in size, which can be seen in Fig. 2
+The first experiment was conducted on the second floor of Yongqian Students’ Center in Yuquan Campus, Zhejiang University, Hangzhou, China. The mobile robot moved clockwise through a corridor outside a lecture hall. The center lines of the corridor consists of two straight lines, one minor arc and one semicircle whose radius is about 8.5 m.
+
+### Chow Yei Ching Science & Technology Building 
+
+The second experiment was performed in another environment which is larger, and contains more unstructured objects. The environment, located in the fourth floor of the Chow Yei Ching Science & Technology Building in Yuquan Campus, Zhejiang University, Hangzhou, China, is 41 m × 34 m in size.
 <div align=center><img width="800" src="https://github.com/RuanJY/DataSetZJU/blob/master/huanjing.jpg" alt="Fig. 2"/></div>
 
-The map overlaid with map ground truth and trajectory of the mobile robot produced by our algorithm is show in Fig. 3.
+## Result of gp-slam 2d and G-mapping
+
+Yongqian Students’ Center. The map are overlaid with map ground truth and trajectory of the mobile robot produced by slam. Left: gp-slam 2d, right: G-mapping
+
 <div align=center><img width="800" src="https://github.com/RuanJY/DataSetZJU/blob/master/map6.1.jpg" alt="Fig. 3"/></div>
 
-The map overlaid with map ground truth and trajectory of the mobile robot produced by our algorithm is show in Fig. 4.
+Chow Yei Ching Science & Technology Building. The map overlaid with map ground truth and trajectory of the mobile robot produced by slam. Left: gp-slam 2d, right: G-mapping
+
 <div align=center><img width="800" src="https://github.com/RuanJY/DataSetZJU/blob/master/map6.2.jpg" alt="Fig. 4"/></div>
 
 Please cite our paper if you use this data-set:
