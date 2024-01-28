@@ -1,4 +1,4 @@
-# 2D Lidar DataSet ZJU
+# GP-SLAM_2d_dataset
 
 A mobile-robot-based SLAM data-set containing 2D laser scan from Hokuyo LiDAR, IMU, and odometry from wheel encoders.
 
